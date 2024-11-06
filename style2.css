@@ -35,3 +35,87 @@ h1 {
     margin-top: auto;
     margin-left: auto;
 }
+.header{
+    position: absolute;
+    right: 10px;
+}
+.container{
+    background-color: bisque;
+    
+}
+
+.image {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-2{
+    background-color: brown;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    
+}
+.block-2{
+    background-color: khaki;
+    height: 200px;
+    width: 200px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.container-3 {
+    background-color: rgb(88, 128, 203);
+    border: 3px solid rgb(96, 17, 17);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+   
+}
+.block-3 {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    padding: 30px;
+    background-color: rgb(55, 179, 62);
+    color: aliceblue;
+    text-align: center;
+}
+.container-4 {
+    background-color: white;
+    border: 3px solid black;
+    height: 700px;
+    width: 700px;
+}
+.block-4 {
+    height: 200px;
+    width: 200px;
+    border: 3px solid red;
+    position: relative;
+    left: 150px;
+    top: 150px;
+}
+.block-5 {
+    height: 200px;
+    width: 200px;
+    border: 3px solid blue;
+    position: relative;
+    left: 270px;
+    top: 70px;
+}
+.block-6 {
+    height: 200px;
+    width: 200px;
+    border: 3px solid green;
+    position: relative;
+    left: 390px;
+    top: -10px;
+}
+.image-2 {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
