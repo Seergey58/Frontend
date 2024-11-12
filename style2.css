@@ -8,34 +8,43 @@ h1 {
    
     
 }
+.content {
+    justify-content: space-between;
+    display: flex;
+    margin: 20px;
+}
 .content-left {
     background-color: chocolate;
-    position: absolute;
-    left: 60px;
-    top: 140px;
+    
     border: 3px solid rgb(26, 135, 213);
-    border-radius: 10px;
+    border-radius: 20px;
     color: black;
+    width: 550px;
     margin: 20px;
     padding: 25px;
+    
+
 }
 .content-right {
-    position: absolute;
+   
     background-color: firebrick;
-    top: 140px;
-    right: 140px;
     border: 3px solid  rgb(26, 135, 213);
     border-radius: 20px;
     width: 550px;
-    height: 415px;
+    height: 500px;
     margin: 20px;
     padding: 25px;
+   
+    
+   
+    
 }
-.content {
-    margin-top: auto;
-    margin-left: auto;
-}
+
 .header{
     position: absolute;
     right: 10px;
+}
+.cart{
+    width: 550px;
+    height: 470px;
 }
