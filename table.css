@@ -1,0 +1,26 @@
+.header{
+    position: absolute;
+    right: 10px;
+}
+body {
+    background-color: rgb(147, 105, 137);  
+}
+
+table, th, td {
+    border: 1px solid rgb(113, 38, 38);
+    border-collapse: collapse;
+  }
+th, td {
+    padding: 30px;
+    text-align: center;
+}
+th {
+    text-align: left;
+    background-color: rgb(3, 107, 102);
+}
+tr:nth-child(even){
+    background-color:rgba(150, 212, 212, 0.6);
+}
+td:nth-child(even){
+    background-color:rgba(150, 212, 212, 0.6);
+}
